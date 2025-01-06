@@ -1,0 +1,301 @@
+C:\Users\narut\AppData\Local\Programs\Python\Python39\python.exe C:/Users/narut/OneDrive/Desktop/TAMU_GPA_DIST/webscraper.py
+Report not available for 2024, SPRING, ADMINISTRATION
+Report not available for 2024, SPRING, ARCHITECTURE (Old)
+Report not available for 2024, SPRING, DENTISTRY (UNDERGRADUATE & GRADUATE) (Old)
+Report not available for 2024, SPRING, DENTISTRY (PROFESSIONAL) (Old)
+Report not available for 2024, SPRING, EDUCATION (Old)
+Report not available for 2024, SPRING, GEOSCIENCES (Old)
+Report not available for 2024, SPRING, LIBERAL ARTS (Old)
+Report not available for 2024, SPRING, MEDICINE (UNDERGRADUATE & GRADUATE) (Old)
+Report not available for 2024, SPRING, MEDICINE (PROFESSIONAL) (Old)
+Report not available for 2024, SPRING, MEDICINE (PROFESSIONAL) (New)
+Report not available for 2024, SPRING, PHARMACY (PROFESSIONAL) (Old)
+Report not available for 2024, SPRING, SCIENCE (Old)
+Report not available for 2024, SPRING, VETERINARY MEDICINE (UNDERGRADUATE & GRADUATE) (Old)
+Report not available for 2024, SPRING, VETERINARY MEDICINE (PROFESSIONAL) (Old)
+Report not available for 2024, SPRING, UNIVERSITY TOTALS
+Report not available for 2024, SUMMER, ADMINISTRATION
+Report not available for 2024, SUMMER, ARCHITECTURE (Old)
+Report not available for 2024, SUMMER, DENTISTRY (UNDERGRADUATE & GRADUATE) (Old)
+Report not available for 2024, SUMMER, DENTISTRY (PROFESSIONAL) (Old)
+Report not available for 2024, SUMMER, DENTISTRY (UNDERGRADUATE & GRADUATE) (New)
+Report not available for 2024, SUMMER, DENTISTRY (PROFESSIONAL) (New)
+Report not available for 2024, SUMMER, EDUCATION (Old)
+Report not available for 2024, SUMMER, GEOSCIENCES (Old)
+Report not available for 2024, SUMMER, SCHOOL OF LAW (UNDERGRADUATE & GRADUATE)
+Report not available for 2024, SUMMER, SCHOOL OF LAW (PROFESSIONAL)
+Report not available for 2024, SUMMER, LIBERAL ARTS (Old)
+Report not available for 2024, SUMMER, MEDICINE (UNDERGRADUATE & GRADUATE) (Old)
+Report not available for 2024, SUMMER, MEDICINE (PROFESSIONAL) (Old)
+Report not available for 2024, SUMMER, MEDICINE (UNDERGRADUATE & GRADUATE) (New)
+Report not available for 2024, SUMMER, MEDICINE (PROFESSIONAL) (New)
+Report not available for 2024, SUMMER, PHARMACY (PROFESSIONAL) (Old)
+Report not available for 2024, SUMMER, PUBLIC HEALTH
+Report not available for 2024, SUMMER, SCIENCE (Old)
+Report not available for 2024, SUMMER, VETERINARY MEDICINE (UNDERGRADUATE & GRADUATE) (Old)
+Report not available for 2024, SUMMER, VETERINARY MEDICINE (PROFESSIONAL) (Old)
+Report not available for 2024, SUMMER, UNIVERSITY TOTALS
+Report not available for 2024, FALL, ADMINISTRATION
+Report not available for 2024, FALL, CENTER FOR ACADEMIC ENHANCEMENT
+Report not available for 2024, FALL, AGRICULTURE
+Report not available for 2024, FALL, ARCHITECTURE (Old)
+Report not available for 2024, FALL, ARCHITECTURE (New)
+Report not available for 2024, FALL, ASSOCIATE PROVOST FOR UNDERGRADUATE PROGRAMS
+Report not available for 2024, FALL, ARTS & SCIENCES
+Report not available for 2024, FALL, BUSH SCHOOL OF GOVERNMENT AND PUBLIC SERVICE
+Report not available for 2024, FALL, MAYS BUSINESS
+Report not available for 2024, FALL, DENTISTRY (UNDERGRADUATE & GRADUATE) (Old)
+Report not available for 2024, FALL, DENTISTRY (PROFESSIONAL) (Old)
+Report not available for 2024, FALL, DENTISTRY (UNDERGRADUATE & GRADUATE) (New)
+Report not available for 2024, FALL, DENTISTRY (PROFESSIONAL) (New)
+Report not available for 2024, FALL, EDUCATION (Old)
+Report not available for 2024, FALL, EDUCATION & HUMAN DEVELOPMENT (New)
+Report not available for 2024, FALL, ENGINEERING
+Report not available for 2024, FALL, TEXAS A&M UNIVERSITY AT GALVESTON
+Report not available for 2024, FALL, GEOSCIENCES (Old)
+Report not available for 2024, FALL, SCHOOL OF LAW (UNDERGRADUATE & GRADUATE)
+Report not available for 2024, FALL, SCHOOL OF LAW (PROFESSIONAL)
+Report not available for 2024, FALL, LIBERAL ARTS (Old)
+Report not available for 2024, FALL, MEDICINE (UNDERGRADUATE & GRADUATE) (Old)
+Report not available for 2024, FALL, MEDICINE (PROFESSIONAL) (Old)
+Report not available for 2024, FALL, MEDICINE (UNDERGRADUATE & GRADUATE) (New)
+Report not available for 2024, FALL, MEDICINE (PROFESSIONAL) (New)
+Report not available for 2024, FALL, MILITARY SCIENCE
+Report not available for 2024, FALL, NURSING
+Report not available for 2024, FALL, PHARMACY (PROFESSIONAL) (Old)
+Report not available for 2024, FALL, PHARMACY (PROFESSIONAL) (New)
+Report not available for 2024, FALL, PUBLIC HEALTH
+Report not available for 2024, FALL, TEXAS A&M UNIVERSITY AT QATAR
+Report not available for 2024, FALL, SCIENCE (Old)
+Report not available for 2024, FALL, PERFORMANCE, VISUALIZATION & FINE ARTS
+Report not available for 2024, FALL, VETERINARY MEDICINE (UNDERGRADUATE & GRADUATE) (Old)
+Report not available for 2024, FALL, VETERINARY MEDICINE (PROFESSIONAL) (Old)
+Report not available for 2024, FALL, VETERINARY MEDICINE & BIOMEDICAL SCIENCES (UNDERGRADUATE & GRADUATE) (New)
+Report not available for 2024, FALL, VETERINARY MEDICINE & BIOMEDICAL SCIENCES (PROFESSIONAL) (New)
+Report not available for 2024, FALL, UNIVERSITY TOTALS
+Report not available for 2023, SPRING, ADMINISTRATION
+Report not available for 2023, SPRING, ARCHITECTURE (Old)
+Report not available for 2023, SPRING, DENTISTRY (UNDERGRADUATE & GRADUATE) (Old)
+Report not available for 2023, SPRING, DENTISTRY (PROFESSIONAL) (Old)
+Report not available for 2023, SPRING, EDUCATION (Old)
+Report not available for 2023, SPRING, GEOSCIENCES (Old)
+Report not available for 2023, SPRING, LIBERAL ARTS (Old)
+Report not available for 2023, SPRING, MEDICINE (UNDERGRADUATE & GRADUATE) (Old)
+Report not available for 2023, SPRING, MEDICINE (PROFESSIONAL) (Old)
+Report not available for 2023, SPRING, MEDICINE (UNDERGRADUATE & GRADUATE) (New)
+Report not available for 2023, SPRING, PHARMACY (PROFESSIONAL) (Old)
+Report not available for 2023, SPRING, SCIENCE (Old)
+Report not available for 2023, SPRING, VETERINARY MEDICINE (UNDERGRADUATE & GRADUATE) (Old)
+Report not available for 2023, SPRING, VETERINARY MEDICINE (PROFESSIONAL) (Old)
+Report not available for 2023, SPRING, UNIVERSITY TOTALS
+Report not available for 2023, SUMMER, ADMINISTRATION
+Report not available for 2023, SUMMER, ARCHITECTURE (Old)
+Report not available for 2023, SUMMER, DENTISTRY (UNDERGRADUATE & GRADUATE) (Old)
+Report not available for 2023, SUMMER, DENTISTRY (PROFESSIONAL) (Old)
+Report not available for 2023, SUMMER, DENTISTRY (UNDERGRADUATE & GRADUATE) (New)
+Report not available for 2023, SUMMER, EDUCATION (Old)
+Report not available for 2023, SUMMER, GEOSCIENCES (Old)
+Report not available for 2023, SUMMER, LIBERAL ARTS (Old)
+Report not available for 2023, SUMMER, MEDICINE (UNDERGRADUATE & GRADUATE) (Old)
+Report not available for 2023, SUMMER, MEDICINE (PROFESSIONAL) (Old)
+Report not available for 2023, SUMMER, MEDICINE (PROFESSIONAL) (New)
+Report not available for 2023, SUMMER, MILITARY SCIENCE
+Report not available for 2023, SUMMER, PHARMACY (PROFESSIONAL) (Old)
+Report not available for 2023, SUMMER, SCIENCE (Old)
+Report not available for 2023, SUMMER, VETERINARY MEDICINE (UNDERGRADUATE & GRADUATE) (Old)
+Report not available for 2023, SUMMER, VETERINARY MEDICINE (PROFESSIONAL) (Old)
+Report not available for 2023, SUMMER, UNIVERSITY TOTALS
+Report not available for 2023, FALL, ADMINISTRATION
+Report not available for 2023, FALL, ARCHITECTURE (Old)
+Report not available for 2023, FALL, DENTISTRY (UNDERGRADUATE & GRADUATE) (Old)
+Report not available for 2023, FALL, DENTISTRY (PROFESSIONAL) (Old)
+Report not available for 2023, FALL, EDUCATION (Old)
+Report not available for 2023, FALL, GEOSCIENCES (Old)
+Report not available for 2023, FALL, LIBERAL ARTS (Old)
+Report not available for 2023, FALL, MEDICINE (UNDERGRADUATE & GRADUATE) (Old)
+Report not available for 2023, FALL, MEDICINE (PROFESSIONAL) (Old)
+Report not available for 2023, FALL, MEDICINE (PROFESSIONAL) (New)
+Report not available for 2023, FALL, PHARMACY (PROFESSIONAL) (Old)
+Report not available for 2023, FALL, SCIENCE (Old)
+Report not available for 2023, FALL, VETERINARY MEDICINE (UNDERGRADUATE & GRADUATE) (Old)
+Report not available for 2023, FALL, VETERINARY MEDICINE (PROFESSIONAL) (Old)
+Report not available for 2023, FALL, UNIVERSITY TOTALS
+Report not available for 2022, SPRING, ADMINISTRATION
+Report not available for 2022, SPRING, ARCHITECTURE (New)
+Report not available for 2022, SPRING, ARTS & SCIENCES
+Report not available for 2022, SPRING, DENTISTRY (UNDERGRADUATE & GRADUATE) (New)
+Report not available for 2022, SPRING, DENTISTRY (PROFESSIONAL) (New)
+Report not available for 2022, SPRING, EDUCATION & HUMAN DEVELOPMENT (New)
+Report not available for 2022, SPRING, MEDICINE (UNDERGRADUATE & GRADUATE) (New)
+Report not available for 2022, SPRING, MEDICINE (PROFESSIONAL) (New)
+Report not available for 2022, SPRING, NURSING
+Report not available for 2022, SPRING, PHARMACY (PROFESSIONAL) (Old)
+Report not available for 2022, SPRING, PHARMACY (PROFESSIONAL) (New)
+Report not available for 2022, SPRING, PERFORMANCE, VISUALIZATION & FINE ARTS
+Report not available for 2022, SPRING, VETERINARY MEDICINE & BIOMEDICAL SCIENCES (UNDERGRADUATE & GRADUATE) (New)
+Report not available for 2022, SPRING, VETERINARY MEDICINE & BIOMEDICAL SCIENCES (PROFESSIONAL) (New)
+Report not available for 2022, SPRING, UNIVERSITY TOTALS
+Report not available for 2022, SUMMER, ADMINISTRATION
+Report not available for 2022, SUMMER, ARCHITECTURE (New)
+Report not available for 2022, SUMMER, ARTS & SCIENCES
+Report not available for 2022, SUMMER, DENTISTRY (UNDERGRADUATE & GRADUATE) (New)
+Report not available for 2022, SUMMER, DENTISTRY (PROFESSIONAL) (New)
+Report not available for 2022, SUMMER, EDUCATION & HUMAN DEVELOPMENT (New)
+Report not available for 2022, SUMMER, MEDICINE (PROFESSIONAL) (New)
+Report not available for 2022, SUMMER, NURSING
+Report not available for 2022, SUMMER, PHARMACY (PROFESSIONAL) (Old)
+Report not available for 2022, SUMMER, PERFORMANCE, VISUALIZATION & FINE ARTS
+Report not available for 2022, SUMMER, VETERINARY MEDICINE & BIOMEDICAL SCIENCES (UNDERGRADUATE & GRADUATE) (New)
+Report not available for 2022, SUMMER, VETERINARY MEDICINE & BIOMEDICAL SCIENCES (PROFESSIONAL) (New)
+Report not available for 2022, SUMMER, UNIVERSITY TOTALS
+Report not available for 2022, FALL, ADMINISTRATION
+Report not available for 2022, FALL, ARCHITECTURE (Old)
+Report not available for 2022, FALL, DENTISTRY (PROFESSIONAL) (Old)
+Report not available for 2022, FALL, DENTISTRY (UNDERGRADUATE & GRADUATE) (New)
+Report not available for 2022, FALL, DENTISTRY (PROFESSIONAL) (New)
+Report not available for 2022, FALL, EDUCATION (Old)
+Report not available for 2022, FALL, GEOSCIENCES (Old)
+Report not available for 2022, FALL, SCHOOL OF LAW (UNDERGRADUATE & GRADUATE)
+Report not available for 2022, FALL, LIBERAL ARTS (Old)
+Report not available for 2022, FALL, MEDICINE (UNDERGRADUATE & GRADUATE) (Old)
+Report not available for 2022, FALL, MEDICINE (PROFESSIONAL) (Old)
+Report not available for 2022, FALL, PHARMACY (PROFESSIONAL) (Old)
+Report not available for 2022, FALL, SCIENCE (Old)
+Report not available for 2022, FALL, VETERINARY MEDICINE (PROFESSIONAL) (Old)
+Report not available for 2022, FALL, VETERINARY MEDICINE & BIOMEDICAL SCIENCES (UNDERGRADUATE & GRADUATE) (New)
+Report not available for 2022, FALL, UNIVERSITY TOTALS
+Report not available for 2021, SPRING, ADMINISTRATION
+Report not available for 2021, SPRING, ARCHITECTURE (New)
+Report not available for 2021, SPRING, ARTS & SCIENCES
+Report not available for 2021, SPRING, DENTISTRY (UNDERGRADUATE & GRADUATE) (New)
+Report not available for 2021, SPRING, DENTISTRY (PROFESSIONAL) (New)
+Report not available for 2021, SPRING, EDUCATION & HUMAN DEVELOPMENT (New)
+Report not available for 2021, SPRING, MEDICINE (UNDERGRADUATE & GRADUATE) (New)
+Report not available for 2021, SPRING, MEDICINE (PROFESSIONAL) (New)
+Report not available for 2021, SPRING, NURSING
+Report not available for 2021, SPRING, PHARMACY (PROFESSIONAL) (New)
+Report not available for 2021, SPRING, PERFORMANCE, VISUALIZATION & FINE ARTS
+Report not available for 2021, SPRING, VETERINARY MEDICINE & BIOMEDICAL SCIENCES (UNDERGRADUATE & GRADUATE) (New)
+Report not available for 2021, SPRING, VETERINARY MEDICINE & BIOMEDICAL SCIENCES (PROFESSIONAL) (New)
+Report not available for 2021, SPRING, UNIVERSITY TOTALS
+Report not available for 2021, SUMMER, ADMINISTRATION
+Report not available for 2021, SUMMER, ARCHITECTURE (New)
+Report not available for 2021, SUMMER, ARTS & SCIENCES
+Report not available for 2021, SUMMER, DENTISTRY (UNDERGRADUATE & GRADUATE) (New)
+Report not available for 2021, SUMMER, DENTISTRY (PROFESSIONAL) (New)
+Report not available for 2021, SUMMER, EDUCATION & HUMAN DEVELOPMENT (New)
+Report not available for 2021, SUMMER, MEDICINE (UNDERGRADUATE & GRADUATE) (New)
+Report not available for 2021, SUMMER, MEDICINE (PROFESSIONAL) (New)
+Report not available for 2021, SUMMER, NURSING
+Report not available for 2021, SUMMER, PHARMACY (PROFESSIONAL) (New)
+Report not available for 2021, SUMMER, PERFORMANCE, VISUALIZATION & FINE ARTS
+Report not available for 2021, SUMMER, VETERINARY MEDICINE & BIOMEDICAL SCIENCES (UNDERGRADUATE & GRADUATE) (New)
+Report not available for 2021, SUMMER, VETERINARY MEDICINE & BIOMEDICAL SCIENCES (PROFESSIONAL) (New)
+Report not available for 2021, SUMMER, UNIVERSITY TOTALS
+Report not available for 2021, FALL, ADMINISTRATION
+Report not available for 2021, FALL, ARCHITECTURE (New)
+Report not available for 2021, FALL, ARTS & SCIENCES
+Report not available for 2021, FALL, DENTISTRY (PROFESSIONAL) (Old)
+Report not available for 2021, FALL, DENTISTRY (UNDERGRADUATE & GRADUATE) (New)
+Report not available for 2021, FALL, DENTISTRY (PROFESSIONAL) (New)
+Report not available for 2021, FALL, EDUCATION & HUMAN DEVELOPMENT (New)
+Report not available for 2021, FALL, MEDICINE (UNDERGRADUATE & GRADUATE) (New)
+Report not available for 2021, FALL, MEDICINE (PROFESSIONAL) (New)
+Report not available for 2021, FALL, NURSING
+Report not available for 2021, FALL, PHARMACY (PROFESSIONAL) (New)
+Report not available for 2021, FALL, PERFORMANCE, VISUALIZATION & FINE ARTS
+Report not available for 2021, FALL, VETERINARY MEDICINE & BIOMEDICAL SCIENCES (UNDERGRADUATE & GRADUATE) (New)
+Report not available for 2021, FALL, VETERINARY MEDICINE & BIOMEDICAL SCIENCES (PROFESSIONAL) (New)
+Report not available for 2021, FALL, UNIVERSITY TOTALS
+Report not available for 2020, SPRING, ADMINISTRATION
+Report not available for 2020, SPRING, ARCHITECTURE (New)
+Report not available for 2020, SPRING, ARTS & SCIENCES
+Report not available for 2020, SPRING, DENTISTRY (UNDERGRADUATE & GRADUATE) (New)
+Report not available for 2020, SPRING, DENTISTRY (PROFESSIONAL) (New)
+Report not available for 2020, SPRING, EDUCATION & HUMAN DEVELOPMENT (New)
+Report not available for 2020, SPRING, SCHOOL OF LAW (UNDERGRADUATE & GRADUATE)
+Report not available for 2020, SPRING, MEDICINE (UNDERGRADUATE & GRADUATE) (Old)
+Report not available for 2020, SPRING, MEDICINE (UNDERGRADUATE & GRADUATE) (New)
+Report not available for 2020, SPRING, MEDICINE (PROFESSIONAL) (New)
+Report not available for 2020, SPRING, NURSING
+Report not available for 2020, SPRING, PHARMACY (PROFESSIONAL) (New)
+Report not available for 2020, SPRING, PERFORMANCE, VISUALIZATION & FINE ARTS
+Report not available for 2020, SPRING, VETERINARY MEDICINE & BIOMEDICAL SCIENCES (UNDERGRADUATE & GRADUATE) (New)
+Report not available for 2020, SPRING, VETERINARY MEDICINE & BIOMEDICAL SCIENCES (PROFESSIONAL) (New)
+Report not available for 2020, SPRING, UNIVERSITY TOTALS
+Report not available for 2020, SUMMER, ADMINISTRATION
+Report not available for 2020, SUMMER, CENTER FOR ACADEMIC ENHANCEMENT
+Report not available for 2020, SUMMER, ARCHITECTURE (New)
+Report not available for 2020, SUMMER, ARTS & SCIENCES
+Report not available for 2020, SUMMER, DENTISTRY (UNDERGRADUATE & GRADUATE) (New)
+Report not available for 2020, SUMMER, DENTISTRY (PROFESSIONAL) (New)
+Report not available for 2020, SUMMER, EDUCATION & HUMAN DEVELOPMENT (New)
+Report not available for 2020, SUMMER, MEDICINE (UNDERGRADUATE & GRADUATE) (New)
+Report not available for 2020, SUMMER, MEDICINE (PROFESSIONAL) (New)
+Report not available for 2020, SUMMER, NURSING
+Report not available for 2020, SUMMER, PHARMACY (PROFESSIONAL) (New)
+Report not available for 2020, SUMMER, PERFORMANCE, VISUALIZATION & FINE ARTS
+Report not available for 2020, SUMMER, VETERINARY MEDICINE & BIOMEDICAL SCIENCES (UNDERGRADUATE & GRADUATE) (New)
+Report not available for 2020, SUMMER, VETERINARY MEDICINE & BIOMEDICAL SCIENCES (PROFESSIONAL) (New)
+Report not available for 2020, SUMMER, UNIVERSITY TOTALS
+Report not available for 2020, FALL, ADMINISTRATION
+Report not available for 2020, FALL, ARCHITECTURE (New)
+Report not available for 2020, FALL, ARTS & SCIENCES
+Report not available for 2020, FALL, DENTISTRY (UNDERGRADUATE & GRADUATE) (New)
+Report not available for 2020, FALL, DENTISTRY (PROFESSIONAL) (New)
+Report not available for 2020, FALL, EDUCATION & HUMAN DEVELOPMENT (New)
+Report not available for 2020, FALL, MEDICINE (UNDERGRADUATE & GRADUATE) (New)
+Report not available for 2020, FALL, MEDICINE (PROFESSIONAL) (New)
+Report not available for 2020, FALL, NURSING
+Report not available for 2020, FALL, PHARMACY (PROFESSIONAL) (New)
+Report not available for 2020, FALL, PERFORMANCE, VISUALIZATION & FINE ARTS
+Report not available for 2020, FALL, VETERINARY MEDICINE & BIOMEDICAL SCIENCES (UNDERGRADUATE & GRADUATE) (New)
+Report not available for 2020, FALL, VETERINARY MEDICINE & BIOMEDICAL SCIENCES (PROFESSIONAL) (New)
+Report not available for 2020, FALL, UNIVERSITY TOTALS
+Report not available for 2019, SPRING, ADMINISTRATION
+Report not available for 2019, SPRING, ARCHITECTURE (New)
+Report not available for 2019, SPRING, ARTS & SCIENCES
+Report not available for 2019, SPRING, DENTISTRY (UNDERGRADUATE & GRADUATE) (New)
+Report not available for 2019, SPRING, DENTISTRY (PROFESSIONAL) (New)
+Report not available for 2019, SPRING, EDUCATION & HUMAN DEVELOPMENT (New)
+Report not available for 2019, SPRING, MEDICINE (PROFESSIONAL) (Old)
+Report not available for 2019, SPRING, MEDICINE (UNDERGRADUATE & GRADUATE) (New)
+Report not available for 2019, SPRING, MEDICINE (PROFESSIONAL) (New)
+Report not available for 2019, SPRING, NURSING
+Report not available for 2019, SPRING, PHARMACY (PROFESSIONAL) (New)
+Report not available for 2019, SPRING, PERFORMANCE, VISUALIZATION & FINE ARTS
+Report not available for 2019, SPRING, VETERINARY MEDICINE & BIOMEDICAL SCIENCES (UNDERGRADUATE & GRADUATE) (New)
+Report not available for 2019, SPRING, VETERINARY MEDICINE & BIOMEDICAL SCIENCES (PROFESSIONAL) (New)
+Report not available for 2019, SPRING, UNIVERSITY TOTALS
+Report not available for 2019, SUMMER, ADMINISTRATION
+Report not available for 2019, SUMMER, ARCHITECTURE (New)
+Report not available for 2019, SUMMER, ARTS & SCIENCES
+Report not available for 2019, SUMMER, DENTISTRY (UNDERGRADUATE & GRADUATE) (New)
+Report not available for 2019, SUMMER, DENTISTRY (PROFESSIONAL) (New)
+Report not available for 2019, SUMMER, EDUCATION & HUMAN DEVELOPMENT (New)
+Report not available for 2019, SUMMER, MEDICINE (UNDERGRADUATE & GRADUATE) (Old)
+Report not available for 2019, SUMMER, MEDICINE (PROFESSIONAL) (Old)
+Report not available for 2019, SUMMER, MEDICINE (UNDERGRADUATE & GRADUATE) (New)
+Report not available for 2019, SUMMER, MEDICINE (PROFESSIONAL) (New)
+Report not available for 2019, SUMMER, NURSING
+Report not available for 2019, SUMMER, PHARMACY (PROFESSIONAL) (New)
+Report not available for 2019, SUMMER, PERFORMANCE, VISUALIZATION & FINE ARTS
+Report not available for 2019, SUMMER, VETERINARY MEDICINE & BIOMEDICAL SCIENCES (UNDERGRADUATE & GRADUATE) (New)
+Report not available for 2019, SUMMER, VETERINARY MEDICINE & BIOMEDICAL SCIENCES (PROFESSIONAL) (New)
+Report not available for 2019, FALL, ADMINISTRATION
+Report not available for 2019, FALL, ARCHITECTURE (New)
+Report not available for 2019, FALL, ARTS & SCIENCES
+Report not available for 2019, FALL, DENTISTRY (UNDERGRADUATE & GRADUATE) (New)
+Report not available for 2019, FALL, DENTISTRY (PROFESSIONAL) (New)
+Report not available for 2019, FALL, EDUCATION & HUMAN DEVELOPMENT (New)
+Report not available for 2019, FALL, MEDICINE (UNDERGRADUATE & GRADUATE) (New)
+Report not available for 2019, FALL, MEDICINE (PROFESSIONAL) (New)
+Report not available for 2019, FALL, NURSING
+Report not available for 2019, FALL, PHARMACY (PROFESSIONAL) (New)
+Report not available for 2019, FALL, PERFORMANCE, VISUALIZATION & FINE ARTS
+Report not available for 2019, FALL, VETERINARY MEDICINE & BIOMEDICAL SCIENCES (UNDERGRADUATE & GRADUATE) (New)
+Report not available for 2019, FALL, VETERINARY MEDICINE & BIOMEDICAL SCIENCES (PROFESSIONAL) (New)
+Report not available for 2019, FALL, UNIVERSITY TOTALS
+PDFs downloaded to C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data
+
+Process finished with exit code 0

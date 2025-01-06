@@ -1,0 +1,773 @@
+C:\Users\narut\AppData\Local\Programs\Python\Python39\python.exe C:/Users/narut/OneDrive/Desktop/TAMU_GPA_DIST/ReadPDF.py
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20191AE.pdf
+CSV saved to: formatted_data\CENTER_FOR_ACAD_ENHANCEMENT_SPRING_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20191AG.pdf
+CSV saved to: formatted_data\AGRICULTURE_&_LIFE_SCIENCES_SPRING_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20191AP.pdf
+CSV saved to: formatted_data\ASSOC_PROVOST_FOR_UG_STUDIES_SPRING_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20191AR.pdf
+CSV saved to: formatted_data\ARCHITECTURE_SPRING_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20191BA.pdf
+CSV saved to: formatted_data\MAYS_BUSINESS_SCHOOL_SPRING_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20191CP_PROF.pdf
+CSV saved to: formatted_data\PHARMACY_SPRING_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20191DN.pdf
+CSV saved to: formatted_data\DENTISTRY_SPRING_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20191DN_PROF.pdf
+Error extracting semester/year from C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20191DN_PROF.pdf: too many values to unpack (expected 2)
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20191ED.pdf
+CSV saved to: formatted_data\EDUCATION_&_HUMAN_DEVELOPMENT_SPRING_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20191EN.pdf
+CSV saved to: formatted_data\ENGINEERING_SPRING_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20191GB.pdf
+CSV saved to: formatted_data\BUSH_SCHOOL_OF_GOV_&_PUB_SERV_SPRING_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20191GE.pdf
+CSV saved to: formatted_data\GEOSCIENCES_SPRING_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20191GV.pdf
+CSV saved to: formatted_data\TAMU_AT_GALVESTON_SPRING_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20191LA.pdf
+CSV saved to: formatted_data\LIBERAL_ARTS_SPRING_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20191MS.pdf
+CSV saved to: formatted_data\MILITARY_SCIENCE_SPRING_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20191PH.pdf
+CSV saved to: formatted_data\PUBLIC_HEALTH_SPRING_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20191QT.pdf
+CSV saved to: formatted_data\QATAR_CAMPUS_SPRING_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20191SC.pdf
+CSV saved to: formatted_data\SCIENCE_SPRING_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20191SL.pdf
+CSV saved to: formatted_data\SCHOOL_OF_LAW_SPRING_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20191SL_PROF.pdf
+CSV saved to: formatted_data\SCHOOL_OF_LAW_SPRING_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20191VM.pdf
+CSV saved to: formatted_data\VETERINARY_MED_&_BIOMEDICAL_SC_SPRING_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20191VM_PROF.pdf
+Error extracting semester/year from C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20191VM_PROF.pdf: too many values to unpack (expected 2)
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20192AE.pdf
+CSV saved to: formatted_data\CENTER_FOR_ACAD_ENHANCEMENT_SUMMER_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20192AG.pdf
+CSV saved to: formatted_data\AGRICULTURE_&_LIFE_SCIENCES_SUMMER_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20192AP.pdf
+CSV saved to: formatted_data\ASSOC_PROVOST_FOR_UG_STUDIES_SUMMER_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20192AR.pdf
+CSV saved to: formatted_data\ARCHITECTURE_SUMMER_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20192BA.pdf
+CSV saved to: formatted_data\MAYS_BUSINESS_SCHOOL_SUMMER_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20192CP_PROF.pdf
+CSV saved to: formatted_data\PUBLIC_HEALTH_SUMMER_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20192DN.pdf
+CSV saved to: formatted_data\DENTISTRY_SUMMER_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20192DN_PROF.pdf
+CSV saved to: formatted_data\DENTISTRY_SUMMER_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20192ED.pdf
+CSV saved to: formatted_data\EDUCATION_&_HUMAN_DEVELOPMENT_SUMMER_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20192EN.pdf
+CSV saved to: formatted_data\ENGINEERING_SUMMER_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20192GB.pdf
+CSV saved to: formatted_data\BUSH_SCHOOL_OF_GOV_&_PUB_SERV_SUMMER_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20192GE.pdf
+CSV saved to: formatted_data\GEOSCIENCES_SUMMER_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20192GV.pdf
+CSV saved to: formatted_data\TAMU_AT_GALVESTON_SUMMER_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20192LA.pdf
+CSV saved to: formatted_data\LIBERAL_ARTS_SUMMER_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20192PH.pdf
+CSV saved to: formatted_data\PUBLIC_HEALTH_SUMMER_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20192QT.pdf
+CSV saved to: formatted_data\QATAR_CAMPUS_SUMMER_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20192SC.pdf
+CSV saved to: formatted_data\SCIENCE_SUMMER_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20192SL.pdf
+CSV saved to: formatted_data\SCHOOL_OF_LAW_SUMMER_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20192SL_PROF.pdf
+CSV saved to: formatted_data\SCHOOL_OF_LAW_SUMMER_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20192UT.pdf
+CSV saved to: formatted_data\CENTER_FOR_ACAD_ENHANCEMENT_SUMMER_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20192VM.pdf
+CSV saved to: formatted_data\VETERINARY_MED_&_BIOMEDICAL_SC_SUMMER_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20192VM_PROF.pdf
+Error extracting semester/year from C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20192VM_PROF.pdf: not enough values to unpack (expected 2, got 1)
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20193AE.pdf
+CSV saved to: formatted_data\CENTER_FOR_ACAD_ENHANCEMENT_FALL_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20193AG.pdf
+CSV saved to: formatted_data\AGRICULTURE_&_LIFE_SCIENCES_FALL_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20193AP.pdf
+CSV saved to: formatted_data\ASSOC_PROVOST_FOR_UG_STUDIES_FALL_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20193AR.pdf
+CSV saved to: formatted_data\ARCHITECTURE_FALL_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20193BA.pdf
+CSV saved to: formatted_data\MAYS_BUSINESS_SCHOOL_FALL_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20193CP_PROF.pdf
+CSV saved to: formatted_data\PHARMACY_FALL_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20193DN.pdf
+CSV saved to: formatted_data\DENTISTRY_FALL_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20193DN_PROF.pdf
+CSV saved to: formatted_data\DENTISTRY_FALL_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20193ED.pdf
+CSV saved to: formatted_data\EDUCATION_&_HUMAN_DEVELOPMENT_FALL_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20193EN.pdf
+CSV saved to: formatted_data\ENGINEERING_FALL_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20193GB.pdf
+CSV saved to: formatted_data\BUSH_SCHOOL_OF_GOV_&_PUB_SERV_FALL_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20193GE.pdf
+CSV saved to: formatted_data\GEOSCIENCES_FALL_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20193GV.pdf
+CSV saved to: formatted_data\TAMU_AT_GALVESTON_FALL_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20193LA.pdf
+CSV saved to: formatted_data\LIBERAL_ARTS_FALL_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20193MD.pdf
+CSV saved to: formatted_data\MEDICINE_FALL_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20193MD_PROF.pdf
+CSV saved to: formatted_data\ENGINEERING_FALL_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20193MS.pdf
+CSV saved to: formatted_data\MILITARY_SCIENCE_FALL_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20193PH.pdf
+CSV saved to: formatted_data\PUBLIC_HEALTH_FALL_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20193QT.pdf
+CSV saved to: formatted_data\QATAR_CAMPUS_FALL_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20193SC.pdf
+CSV saved to: formatted_data\SCIENCE_FALL_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20193SL.pdf
+CSV saved to: formatted_data\SCHOOL_OF_LAW_FALL_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20193SL_PROF.pdf
+CSV saved to: formatted_data\SCHOOL_OF_LAW_FALL_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20193VM.pdf
+CSV saved to: formatted_data\VETERINARY_MED_&_BIOMEDICAL_SC_FALL_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20193VM_PROF.pdf
+CSV saved to: formatted_data\VETERINARY_MED_&_BIOMEDICAL_SC_FALL_2019.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20201AE.pdf
+CSV saved to: formatted_data\CENTER_FOR_ACAD_ENHANCEMENT_SPRING_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20201AG.pdf
+CSV saved to: formatted_data\AGRICULTURE_&_LIFE_SCIENCES_SPRING_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20201AP.pdf
+CSV saved to: formatted_data\ASSOC_PROVOST_FOR_UG_STUDIES_SPRING_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20201AR.pdf
+CSV saved to: formatted_data\ARCHITECTURE_SPRING_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20201BA.pdf
+CSV saved to: formatted_data\MAYS_BUSINESS_SCHOOL_SPRING_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20201CP_PROF.pdf
+CSV saved to: formatted_data\PHARMACY_SPRING_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20201DN.pdf
+CSV saved to: formatted_data\DENTISTRY_SPRING_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20201DN_PROF.pdf
+CSV saved to: formatted_data\DENTISTRY_SPRING_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20201ED.pdf
+CSV saved to: formatted_data\EDUCATION_&_HUMAN_DEVELOPMENT_SPRING_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20201EN.pdf
+CSV saved to: formatted_data\ENGINEERING_SPRING_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20201GB.pdf
+CSV saved to: formatted_data\BUSH_SCHOOL_OF_GOV_&_PUB_SERV_SPRING_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20201GE.pdf
+CSV saved to: formatted_data\GEOSCIENCES_SPRING_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20201GV.pdf
+CSV saved to: formatted_data\TAMU_AT_GALVESTON_SPRING_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20201LA.pdf
+CSV saved to: formatted_data\LIBERAL_ARTS_SPRING_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20201MD_PROF.pdf
+CSV saved to: formatted_data\ENGINEERING_SPRING_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20201MS.pdf
+CSV saved to: formatted_data\MILITARY_SCIENCE_SPRING_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20201PH.pdf
+CSV saved to: formatted_data\PUBLIC_HEALTH_SPRING_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20201QT.pdf
+CSV saved to: formatted_data\QATAR_CAMPUS_SPRING_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20201SC.pdf
+CSV saved to: formatted_data\SCIENCE_SPRING_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20201SL_PROF.pdf
+CSV saved to: formatted_data\SCHOOL_OF_LAW_SPRING_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20201VM.pdf
+CSV saved to: formatted_data\VETERINARY_MED_&_BIOMEDICAL_SC_SPRING_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20201VM_PROF.pdf
+CSV saved to: formatted_data\VETERINARY_MED_&_BIOMEDICAL_SC_SPRING_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20202AG.pdf
+CSV saved to: formatted_data\AGRICULTURE_&_LIFE_SCIENCES_SUMMER_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20202AP.pdf
+CSV saved to: formatted_data\ASSOC_PROVOST_FOR_UG_STUDIES_SUMMER_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20202AR.pdf
+CSV saved to: formatted_data\ARCHITECTURE_SUMMER_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20202BA.pdf
+CSV saved to: formatted_data\MAYS_BUSINESS_SCHOOL_SUMMER_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20202CP_PROF.pdf
+CSV saved to: formatted_data\PUBLIC_HEALTH_SUMMER_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20202DN.pdf
+CSV saved to: formatted_data\DENTISTRY_SUMMER_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20202DN_PROF.pdf
+Error extracting semester/year from C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20202DN_PROF.pdf: not enough values to unpack (expected 2, got 1)
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20202ED.pdf
+CSV saved to: formatted_data\EDUCATION_&_HUMAN_DEVELOPMENT_SUMMER_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20202EN.pdf
+CSV saved to: formatted_data\ENGINEERING_SUMMER_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20202GB.pdf
+CSV saved to: formatted_data\BUSH_SCHOOL_OF_GOV_&_PUB_SERV_SUMMER_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20202GE.pdf
+CSV saved to: formatted_data\GEOSCIENCES_SUMMER_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20202GV.pdf
+CSV saved to: formatted_data\TAMU_AT_GALVESTON_SUMMER_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20202LA.pdf
+CSV saved to: formatted_data\LIBERAL_ARTS_SUMMER_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20202MD.pdf
+CSV saved to: formatted_data\MEDICINE_SUMMER_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20202MD_PROF.pdf
+CSV saved to: formatted_data\ENGINEERING_SPRING_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20202MS.pdf
+Error extracting semester/year from C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20202MS.pdf: not enough values to unpack (expected 2, got 1)
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20202PH.pdf
+CSV saved to: formatted_data\PUBLIC_HEALTH_SUMMER_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20202QT.pdf
+CSV saved to: formatted_data\QATAR_CAMPUS_SUMMER_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20202SC.pdf
+CSV saved to: formatted_data\SCIENCE_SUMMER_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20202SL.pdf
+CSV saved to: formatted_data\SCHOOL_OF_LAW_SUMMER_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20202SL_PROF.pdf
+CSV saved to: formatted_data\SCHOOL_OF_LAW_SUMMER_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20202VM.pdf
+CSV saved to: formatted_data\VETERINARY_MED_&_BIOMEDICAL_SC_SUMMER_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20202VM_PROF.pdf
+Error extracting semester/year from C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20202VM_PROF.pdf: too many values to unpack (expected 2)
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20203AE.pdf
+CSV saved to: formatted_data\CENTER_FOR_ACAD_ENHANCEMENT_FALL_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20203AG.pdf
+CSV saved to: formatted_data\AGRICULTURE_&_LIFE_SCIENCES_FALL_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20203AP.pdf
+CSV saved to: formatted_data\ASSOC_PROVOST_FOR_UG_STUDIES_FALL_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20203AR.pdf
+CSV saved to: formatted_data\ARCHITECTURE_FALL_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20203BA.pdf
+CSV saved to: formatted_data\MAYS_BUSINESS_SCHOOL_FALL_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20203CP_PROF.pdf
+CSV saved to: formatted_data\PHARMACY_FALL_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20203DN.pdf
+CSV saved to: formatted_data\DENTISTRY_FALL_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20203DN_PROF.pdf
+CSV saved to: formatted_data\DENTISTRY_FALL_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20203ED.pdf
+CSV saved to: formatted_data\EDUCATION_&_HUMAN_DEVELOPMENT_FALL_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20203EN.pdf
+CSV saved to: formatted_data\ENGINEERING_FALL_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20203GB.pdf
+CSV saved to: formatted_data\BUSH_SCHOOL_OF_GOV_&_PUB_SERV_FALL_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20203GE.pdf
+CSV saved to: formatted_data\GEOSCIENCES_FALL_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20203GV.pdf
+CSV saved to: formatted_data\TAMU_AT_GALVESTON_FALL_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20203LA.pdf
+CSV saved to: formatted_data\LIBERAL_ARTS_FALL_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20203MD.pdf
+CSV saved to: formatted_data\MEDICINE_FALL_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20203MD_PROF.pdf
+CSV saved to: formatted_data\ENGINEERING_FALL_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20203MS.pdf
+CSV saved to: formatted_data\MILITARY_SCIENCE_FALL_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20203PH.pdf
+CSV saved to: formatted_data\PUBLIC_HEALTH_FALL_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20203QT.pdf
+CSV saved to: formatted_data\QATAR_CAMPUS_FALL_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20203SC.pdf
+CSV saved to: formatted_data\SCIENCE_FALL_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20203SL.pdf
+CSV saved to: formatted_data\SCHOOL_OF_LAW_FALL_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20203SL_PROF.pdf
+CSV saved to: formatted_data\SCHOOL_OF_LAW_FALL_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20203VM.pdf
+CSV saved to: formatted_data\VETERINARY_MED_&_BIOMEDICAL_SC_FALL_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20203VM_PROF.pdf
+CSV saved to: formatted_data\VETERINARY_MED_&_BIOMEDICAL_SC_FALL_2020.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20211AE.pdf
+CSV saved to: formatted_data\CENTER_FOR_ACAD_ENHANCEMENT_SPRING_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20211AG.pdf
+CSV saved to: formatted_data\AGRICULTURE_&_LIFE_SCIENCES_SPRING_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20211AP.pdf
+CSV saved to: formatted_data\ASSOC_PROVOST_FOR_UG_STUDIES_SPRING_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20211AR.pdf
+CSV saved to: formatted_data\ARCHITECTURE_SPRING_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20211BA.pdf
+CSV saved to: formatted_data\MAYS_BUSINESS_SCHOOL_SPRING_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20211CP_PROF.pdf
+CSV saved to: formatted_data\RANGEL_COLL_OF_PHARMACY_SPRING_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20211DN.pdf
+CSV saved to: formatted_data\DENTISTRY_SPRING_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20211DN_PROF.pdf
+Error extracting semester/year from C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20211DN_PROF.pdf: too many values to unpack (expected 2)
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20211ED.pdf
+CSV saved to: formatted_data\EDUCATION_&_HUMAN_DEVELOPMENT_SPRING_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20211EN.pdf
+CSV saved to: formatted_data\ENGINEERING_SPRING_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20211GB.pdf
+CSV saved to: formatted_data\BUSH_SCHOOL_OF_GOV_&_PUB_SERV_SPRING_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20211GE.pdf
+CSV saved to: formatted_data\GEOSCIENCES_SPRING_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20211GV.pdf
+CSV saved to: formatted_data\TAMU_AT_GALVESTON_SPRING_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20211LA.pdf
+CSV saved to: formatted_data\LIBERAL_ARTS_SPRING_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20211MD.pdf
+CSV saved to: formatted_data\MEDICINE_SPRING_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20211MD_PROF.pdf
+CSV saved to: formatted_data\ENGINEERING_SPRING_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20211MS.pdf
+CSV saved to: formatted_data\MILITARY_SCIENCE_SPRING_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20211PH.pdf
+CSV saved to: formatted_data\PUBLIC_HEALTH_SPRING_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20211QT.pdf
+CSV saved to: formatted_data\QATAR_CAMPUS_SPRING_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20211SC.pdf
+CSV saved to: formatted_data\SCIENCE_SPRING_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20211SL.pdf
+CSV saved to: formatted_data\SCHOOL_OF_LAW_SPRING_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20211SL_PROF.pdf
+CSV saved to: formatted_data\SCHOOL_OF_LAW_SPRING_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20211VM.pdf
+CSV saved to: formatted_data\VETERINARY_MED_&_BIOMEDICAL_SC_SPRING_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20211VM_PROF.pdf
+Error extracting semester/year from C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20211VM_PROF.pdf: too many values to unpack (expected 2)
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20212AE.pdf
+CSV saved to: formatted_data\CENTER_FOR_ACAD_ENHANCEMENT_SUMMER_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20212AG.pdf
+CSV saved to: formatted_data\AGRICULTURE_&_LIFE_SCIENCES_SUMMER_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20212AP.pdf
+CSV saved to: formatted_data\ASSOC_PROVOST_FOR_UG_STUDIES_SUMMER_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20212AR.pdf
+CSV saved to: formatted_data\ARCHITECTURE_SUMMER_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20212BA.pdf
+CSV saved to: formatted_data\MAYS_BUSINESS_SCHOOL_SUMMER_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20212CP_PROF.pdf
+CSV saved to: formatted_data\RANGEL_COLL_OF_PHARMACY_SUMMER_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20212DN.pdf
+CSV saved to: formatted_data\DENTISTRY_SUMMER_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20212DN_PROF.pdf
+Error extracting semester/year from C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20212DN_PROF.pdf: not enough values to unpack (expected 2, got 1)
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20212ED.pdf
+CSV saved to: formatted_data\EDUCATION_&_HUMAN_DEVELOPMENT_SUMMER_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20212EN.pdf
+CSV saved to: formatted_data\ENGINEERING_SUMMER_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20212GB.pdf
+CSV saved to: formatted_data\BUSH_SCHOOL_OF_GOV_&_PUB_SERV_SUMMER_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20212GE.pdf
+CSV saved to: formatted_data\GEOSCIENCES_SUMMER_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20212GV.pdf
+CSV saved to: formatted_data\TAMU_AT_GALVESTON_SUMMER_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20212LA.pdf
+CSV saved to: formatted_data\LIBERAL_ARTS_SUMMER_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20212MD.pdf
+CSV saved to: formatted_data\MEDICINE_SUMMER_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20212MD_PROF.pdf
+Error extracting semester/year from C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20212MD_PROF.pdf: not enough values to unpack (expected 2, got 1)
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20212MS.pdf
+Error extracting semester/year from C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20212MS.pdf: not enough values to unpack (expected 2, got 1)
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20212PH.pdf
+CSV saved to: formatted_data\PUBLIC_HEALTH_SUMMER_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20212QT.pdf
+CSV saved to: formatted_data\QATAR_CAMPUS_SUMMER_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20212SC.pdf
+CSV saved to: formatted_data\SCIENCE_SUMMER_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20212SL.pdf
+CSV saved to: formatted_data\SCHOOL_OF_LAW_SUMMER_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20212SL_PROF.pdf
+CSV saved to: formatted_data\SCHOOL_OF_LAW_SUMMER_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20212VM.pdf
+CSV saved to: formatted_data\VETERINARY_MED_&_BIOMEDICAL_SC_SUMMER_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20212VM_PROF.pdf
+Error extracting semester/year from C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20212VM_PROF.pdf: not enough values to unpack (expected 2, got 1)
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20213AE.pdf
+CSV saved to: formatted_data\CENTER_FOR_ACAD_ENHANCEMENT_FALL_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20213AG.pdf
+CSV saved to: formatted_data\AGRICULTURE_&_LIFE_SCIENCES_FALL_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20213AP.pdf
+CSV saved to: formatted_data\ASSOC_PROVOST_FOR_UG_STUDIES_FALL_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20213AR.pdf
+CSV saved to: formatted_data\ARCHITECTURE_FALL_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20213BA.pdf
+CSV saved to: formatted_data\MAYS_BUSINESS_SCHOOL_FALL_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20213CP_PROF.pdf
+CSV saved to: formatted_data\RANGEL_COLL_OF_PHARMACY_FALL_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20213DN.pdf
+CSV saved to: formatted_data\DENTISTRY_FALL_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20213ED.pdf
+CSV saved to: formatted_data\EDUCATION_&_HUMAN_DEVELOPMENT_FALL_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20213EN.pdf
+CSV saved to: formatted_data\ENGINEERING_FALL_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20213GB.pdf
+CSV saved to: formatted_data\BUSH_SCHOOL_OF_GOV_&_PUB_SERV_FALL_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20213GE.pdf
+CSV saved to: formatted_data\GEOSCIENCES_FALL_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20213GV.pdf
+CSV saved to: formatted_data\TAMU_AT_GALVESTON_FALL_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20213LA.pdf
+CSV saved to: formatted_data\LIBERAL_ARTS_FALL_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20213MD.pdf
+CSV saved to: formatted_data\MEDICINE_FALL_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20213MD_PROF.pdf
+CSV saved to: formatted_data\ENGINEERING_FALL_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20213MS.pdf
+CSV saved to: formatted_data\MILITARY_SCIENCE_FALL_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20213PH.pdf
+CSV saved to: formatted_data\PUBLIC_HEALTH_FALL_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20213QT.pdf
+CSV saved to: formatted_data\QATAR_CAMPUS_FALL_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20213SC.pdf
+CSV saved to: formatted_data\SCIENCE_FALL_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20213SL.pdf
+CSV saved to: formatted_data\SCHOOL_OF_LAW_FALL_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20213SL_PROF.pdf
+CSV saved to: formatted_data\SCHOOL_OF_LAW_FALL_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20213VM.pdf
+CSV saved to: formatted_data\VETERINARY_MED_&_BIOMEDICAL_SC_FALL_2021.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20213VM_PROF.pdf
+Error extracting semester/year from C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20213VM_PROF.pdf: too many values to unpack (expected 2)
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20221AE.pdf
+CSV saved to: formatted_data\CENTER_FOR_ACAD_ENHANCEMENT_SPRING_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20221AG.pdf
+CSV saved to: formatted_data\AGRICULTURE_&_LIFE_SCIENCES_SPRING_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20221AP.pdf
+CSV saved to: formatted_data\ASSOC_PROVOST_FOR_UG_STUDIES_SPRING_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20221AR.pdf
+CSV saved to: formatted_data\ARCHITECTURE_SPRING_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20221BA.pdf
+CSV saved to: formatted_data\MAYS_BUSINESS_SCHOOL_SPRING_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20221DN.pdf
+CSV saved to: formatted_data\DENTISTRY_SPRING_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20221DN_PROF.pdf
+Error extracting semester/year from C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20221DN_PROF.pdf: too many values to unpack (expected 2)
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20221ED.pdf
+CSV saved to: formatted_data\EDUCATION_&_HUMAN_DEVELOPMENT_SPRING_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20221EN.pdf
+CSV saved to: formatted_data\ENGINEERING_SPRING_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20221GB.pdf
+CSV saved to: formatted_data\BUSH_SCHOOL_OF_GOV_&_PUB_SERV_SPRING_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20221GE.pdf
+CSV saved to: formatted_data\GEOSCIENCES_SPRING_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20221GV.pdf
+CSV saved to: formatted_data\TAMU_AT_GALVESTON_SPRING_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20221LA.pdf
+CSV saved to: formatted_data\LIBERAL_ARTS_SPRING_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20221MD.pdf
+CSV saved to: formatted_data\MEDICINE_SPRING_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20221MD_PROF.pdf
+Error extracting semester/year from C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20221MD_PROF.pdf: too many values to unpack (expected 2)
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20221MS.pdf
+CSV saved to: formatted_data\MILITARY_SCIENCE_SPRING_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20221PH.pdf
+CSV saved to: formatted_data\PUBLIC_HEALTH_SPRING_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20221QT.pdf
+CSV saved to: formatted_data\QATAR_CAMPUS_SPRING_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20221SC.pdf
+CSV saved to: formatted_data\SCIENCE_SPRING_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20221SL.pdf
+CSV saved to: formatted_data\SCHOOL_OF_LAW_SPRING_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20221SL_PROF.pdf
+Error extracting semester/year from C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20221SL_PROF.pdf: too many values to unpack (expected 2)
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20221VM.pdf
+CSV saved to: formatted_data\VETERINARY_MED_&_BIOMEDICAL_SC_SPRING_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20221VM_PROF.pdf
+Error extracting semester/year from C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20221VM_PROF.pdf: too many values to unpack (expected 2)
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20222AE.pdf
+CSV saved to: formatted_data\CENTER_FOR_ACAD_ENHANCEMENT_SUMMER_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20222AG.pdf
+CSV saved to: formatted_data\AGRICULTURE_&_LIFE_SCIENCES_SUMMER_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20222AP.pdf
+CSV saved to: formatted_data\ASSOC_PROVOST_FOR_UG_STUDIES_SUMMER_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20222AR.pdf
+CSV saved to: formatted_data\ARCHITECTURE_SUMMER_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20222BA.pdf
+CSV saved to: formatted_data\MAYS_BUSINESS_SCHOOL_SUMMER_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20222DN.pdf
+CSV saved to: formatted_data\DENTISTRY_SUMMER_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20222DN_PROF.pdf
+Error extracting semester/year from C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20222DN_PROF.pdf: not enough values to unpack (expected 2, got 1)
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20222ED.pdf
+CSV saved to: formatted_data\EDUCATION_&_HUMAN_DEVELOPMENT_SUMMER_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20222EN.pdf
+CSV saved to: formatted_data\ENGINEERING_SUMMER_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20222GB.pdf
+CSV saved to: formatted_data\BUSH_SCHOOL_OF_GOV_&_PUB_SERV_SUMMER_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20222GE.pdf
+CSV saved to: formatted_data\GEOSCIENCES_SUMMER_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20222GV.pdf
+CSV saved to: formatted_data\TAMU_AT_GALVESTON_SUMMER_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20222LA.pdf
+CSV saved to: formatted_data\LIBERAL_ARTS_SUMMER_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20222MD.pdf
+CSV saved to: formatted_data\MEDICINE_SUMMER_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20222MD_PROF.pdf
+CSV saved to: formatted_data\ENGINEERING_SPRING_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20222MN.pdf
+Error extracting semester/year from C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20222MN.pdf: not enough values to unpack (expected 2, got 1)
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20222MS.pdf
+Error extracting semester/year from C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20222MS.pdf: not enough values to unpack (expected 2, got 1)
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20222PH.pdf
+CSV saved to: formatted_data\PUBLIC_HEALTH_SUMMER_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20222PM_PROF.pdf
+Error extracting semester/year from C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20222PM_PROF.pdf: not enough values to unpack (expected 2, got 1)
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20222QT.pdf
+CSV saved to: formatted_data\QATAR_CAMPUS_SUMMER_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20222SC.pdf
+CSV saved to: formatted_data\SCIENCE_SUMMER_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20222SL.pdf
+CSV saved to: formatted_data\SCHOOL_OF_LAW_SUMMER_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20222SL_PROF.pdf
+CSV saved to: formatted_data\SCHOOL_OF_LAW_SUMMER_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20222VM.pdf
+CSV saved to: formatted_data\VETERINARY_MED_&_BIOMEDICAL_SC_SUMMER_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20222VM_PROF.pdf
+Error extracting semester/year from C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20222VM_PROF.pdf: too many values to unpack (expected 2)
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20223AC.pdf
+CSV saved to: formatted_data\ARCHITECTURE-SCHOOL_FALL_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20223AE.pdf
+CSV saved to: formatted_data\CENTER_FOR_ACAD_ENHANCEMENT_FALL_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20223AG.pdf
+CSV saved to: formatted_data\AGRICULTURE_&_LIFE_SCIENCES_FALL_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20223AP.pdf
+CSV saved to: formatted_data\ASSOC_PROVOST_FOR_UG_STUDIES_FALL_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20223AT.pdf
+CSV saved to: formatted_data\ARTS_&_SCIENCES_FALL_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20223BA.pdf
+CSV saved to: formatted_data\MAYS_BUSINESS_SCHOOL_FALL_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20223DN.pdf
+CSV saved to: formatted_data\DENTISTRY-SCHOOL_FALL_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20223EH.pdf
+CSV saved to: formatted_data\EDUCATION_&_HUMAN_DEV-SCHOOL_FALL_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20223EN.pdf
+CSV saved to: formatted_data\ENGINEERING_FALL_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20223GB.pdf
+CSV saved to: formatted_data\BUSH_SCHOOL_OF_GOV_&_PUB_SERV_FALL_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20223GV.pdf
+CSV saved to: formatted_data\TAMU_AT_GALVESTON_FALL_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20223MN.pdf
+CSV saved to: formatted_data\MEDICINE-SCHOOL_FALL_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20223MN_PROF.pdf
+CSV saved to: formatted_data\ENGINEERING_FALL_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20223MS.pdf
+CSV saved to: formatted_data\MILITARY_SCIENCE_FALL_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20223NS.pdf
+CSV saved to: formatted_data\NURSING-SCHOOL_FALL_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20223PH.pdf
+CSV saved to: formatted_data\PUBLIC_HEALTH_FALL_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20223PM_PROF.pdf
+CSV saved to: formatted_data\PHARMACY-SCHOOL_FALL_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20223QT.pdf
+CSV saved to: formatted_data\QATAR_CAMPUS_FALL_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20223SL_PROF.pdf
+CSV saved to: formatted_data\SCHOOL_OF_LAW_FALL_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20223VF.pdf
+CSV saved to: formatted_data\PERF,_VISUAL_&_FINE_ARTS_FALL_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20223VM.pdf
+CSV saved to: formatted_data\VETERINARY_MED_&_BIO_SC-SCHOOL_FALL_2022.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20223VT_PROF.pdf
+Error extracting semester/year from C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20223VT_PROF.pdf: too many values to unpack (expected 2)
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20231AC.pdf
+CSV saved to: formatted_data\ARCHITECTURE-SCHOOL_SPRING_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20231AE.pdf
+CSV saved to: formatted_data\CENTER_FOR_ACAD_ENHANCEMENT_SPRING_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20231AG.pdf
+CSV saved to: formatted_data\AGRICULTURE_&_LIFE_SCIENCES_SPRING_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20231AP.pdf
+CSV saved to: formatted_data\ASSOC_PROVOST_FOR_UG_STUDIES_SPRING_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20231AT.pdf
+CSV saved to: formatted_data\ARTS_&_SCIENCES_SPRING_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20231BA.pdf
+CSV saved to: formatted_data\MAYS_BUSINESS_SCHOOL_SPRING_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20231DT.pdf
+CSV saved to: formatted_data\DENTISTRY-SCHOOL_SPRING_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20231DT_PROF.pdf
+Error extracting semester/year from C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20231DT_PROF.pdf: too many values to unpack (expected 2)
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20231EH.pdf
+CSV saved to: formatted_data\EDUCATION_&_HUMAN_DEV-SCHOOL_SPRING_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20231EN.pdf
+CSV saved to: formatted_data\ENGINEERING_SPRING_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20231GB.pdf
+CSV saved to: formatted_data\BUSH_SCHOOL_OF_GOV_&_PUB_SERV_SPRING_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20231GV.pdf
+CSV saved to: formatted_data\TAMU_AT_GALVESTON_SPRING_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20231MN_PROF.pdf
+CSV saved to: formatted_data\ENGINEERING_SPRING_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20231MS.pdf
+CSV saved to: formatted_data\MILITARY_SCIENCE_SPRING_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20231NS.pdf
+CSV saved to: formatted_data\NURSING-SCHOOL_SPRING_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20231PH.pdf
+CSV saved to: formatted_data\PUBLIC_HEALTH_SPRING_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20231PM_PROF.pdf
+CSV saved to: formatted_data\PHARMACY-SCHOOL_SPRING_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20231QT.pdf
+CSV saved to: formatted_data\QATAR_CAMPUS_SPRING_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20231SL.pdf
+CSV saved to: formatted_data\SCHOOL_OF_LAW_SPRING_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20231SL_PROF.pdf
+CSV saved to: formatted_data\SCHOOL_OF_LAW_SPRING_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20231VF.pdf
+CSV saved to: formatted_data\PERF,_VISUAL_&_FINE_ARTS_SPRING_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20231VT.pdf
+CSV saved to: formatted_data\VETERINARY_MED_&_BIO_SC-SCHOOL_SPRING_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20231VT_PROF.pdf
+Error extracting semester/year from C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20231VT_PROF.pdf: too many values to unpack (expected 2)
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20232AC.pdf
+CSV saved to: formatted_data\ARCHITECTURE-SCHOOL_SUMMER_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20232AE.pdf
+CSV saved to: formatted_data\CENTER_FOR_ACAD_ENHANCEMENT_SUMMER_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20232AG.pdf
+CSV saved to: formatted_data\AGRICULTURE_&_LIFE_SCIENCES_SUMMER_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20232AP.pdf
+CSV saved to: formatted_data\ASSOC_PROVOST_FOR_UG_STUDIES_SUMMER_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20232AT.pdf
+CSV saved to: formatted_data\ARTS_&_SCIENCES_SUMMER_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20232BA.pdf
+CSV saved to: formatted_data\MAYS_BUSINESS_SCHOOL_SUMMER_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20232DT_PROF.pdf
+Error extracting semester/year from C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20232DT_PROF.pdf: too many values to unpack (expected 2)
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20232EH.pdf
+CSV saved to: formatted_data\EDUCATION_&_HUMAN_DEV-SCHOOL_SUMMER_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20232EN.pdf
+CSV saved to: formatted_data\ENGINEERING_SUMMER_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20232GB.pdf
+CSV saved to: formatted_data\BUSH_SCHOOL_OF_GOV_&_PUB_SERV_SUMMER_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20232GV.pdf
+CSV saved to: formatted_data\TAMU_AT_GALVESTON_SUMMER_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20232MN.pdf
+CSV saved to: formatted_data\MEDICINE-SCHOOL_SUMMER_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20232NS.pdf
+CSV saved to: formatted_data\NURSING-SCHOOL_SUMMER_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20232PH.pdf
+CSV saved to: formatted_data\PUBLIC_HEALTH_SUMMER_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20232PM_PROF.pdf
+Error extracting semester/year from C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20232PM_PROF.pdf: not enough values to unpack (expected 2, got 1)
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20232QT.pdf
+CSV saved to: formatted_data\QATAR_CAMPUS_SUMMER_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20232SL.pdf
+CSV saved to: formatted_data\SCHOOL_OF_LAW_SUMMER_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20232SL_PROF.pdf
+CSV saved to: formatted_data\SCHOOL_OF_LAW_SUMMER_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20232VF.pdf
+CSV saved to: formatted_data\PERF,_VISUAL_&_FINE_ARTS_SUMMER_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20232VT.pdf
+CSV saved to: formatted_data\VETERINARY_MED_&_BIO_SC-SCHOOL_SUMMER_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20232VT_PROF.pdf
+Error extracting semester/year from C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20232VT_PROF.pdf: not enough values to unpack (expected 2, got 1)
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20233AC.pdf
+CSV saved to: formatted_data\ARCHITECTURE-SCHOOL_FALL_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20233AE.pdf
+CSV saved to: formatted_data\CENTER_FOR_ACAD_ENHANCEMENT_FALL_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20233AG.pdf
+CSV saved to: formatted_data\AGRICULTURE_&_LIFE_SCIENCES_FALL_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20233AP.pdf
+CSV saved to: formatted_data\ASSOC_PROVOST_FOR_UG_STUDIES_FALL_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20233AT.pdf
+CSV saved to: formatted_data\ARTS_&_SCIENCES_FALL_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20233BA.pdf
+CSV saved to: formatted_data\MAYS_BUSINESS_SCHOOL_FALL_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20233DT.pdf
+CSV saved to: formatted_data\DENTISTRY-SCHOOL_FALL_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20233DT_PROF.pdf
+CSV saved to: formatted_data\MEDICINE-SCHOOL_FALL_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20233EH.pdf
+CSV saved to: formatted_data\EDUCATION_&_HUMAN_DEV-SCHOOL_FALL_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20233EN.pdf
+CSV saved to: formatted_data\ENGINEERING_FALL_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20233GB.pdf
+CSV saved to: formatted_data\BUSH_SCHOOL_OF_GOV_&_PUB_SERV_FALL_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20233GV.pdf
+CSV saved to: formatted_data\TAMU_AT_GALVESTON_FALL_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20233MN.pdf
+CSV saved to: formatted_data\MEDICINE-SCHOOL_FALL_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20233MS.pdf
+CSV saved to: formatted_data\MILITARY_SCIENCE_FALL_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20233NS.pdf
+CSV saved to: formatted_data\NURSING-SCHOOL_FALL_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20233PH.pdf
+CSV saved to: formatted_data\PUBLIC_HEALTH_FALL_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20233PM_PROF.pdf
+CSV saved to: formatted_data\PHARMACY-SCHOOL_FALL_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20233QT.pdf
+CSV saved to: formatted_data\QATAR_CAMPUS_FALL_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20233SL.pdf
+CSV saved to: formatted_data\SCHOOL_OF_LAW_FALL_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20233SL_PROF.pdf
+CSV saved to: formatted_data\SCHOOL_OF_LAW_FALL_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20233VF.pdf
+CSV saved to: formatted_data\PERF,_VISUAL_&_FINE_ARTS_FALL_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20233VT.pdf
+CSV saved to: formatted_data\VETERINARY_MED_&_BIO_SC-SCHOOL_FALL_2023.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20233VT_PROF.pdf
+Error extracting semester/year from C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20233VT_PROF.pdf: too many values to unpack (expected 2)
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20241AC.pdf
+CSV saved to: formatted_data\ARCHITECTURE-SCHOOL_SPRING_2024.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20241AE.pdf
+CSV saved to: formatted_data\CENTER_FOR_ACAD_ENHANCEMENT_SPRING_2024.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20241AG.pdf
+CSV saved to: formatted_data\AGRICULTURE_&_LIFE_SCIENCES_SPRING_2024.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20241AP.pdf
+CSV saved to: formatted_data\ASSOC_PROVOST_FOR_UG_STUDIES_SPRING_2024.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20241AT.pdf
+CSV saved to: formatted_data\ARTS_&_SCIENCES_SPRING_2024.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20241BA.pdf
+CSV saved to: formatted_data\MAYS_BUSINESS_SCHOOL_SPRING_2024.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20241DT.pdf
+CSV saved to: formatted_data\DENTISTRY-SCHOOL_SPRING_2024.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20241DT_PROF.pdf
+Error extracting semester/year from C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20241DT_PROF.pdf: too many values to unpack (expected 2)
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20241EH.pdf
+CSV saved to: formatted_data\EDUCATION_&_HUMAN_DEV-SCHOOL_SPRING_2024.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20241EN.pdf
+CSV saved to: formatted_data\ENGINEERING_SPRING_2024.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20241GB.pdf
+CSV saved to: formatted_data\BUSH_SCHOOL_OF_GOV_&_PUB_SERV_SPRING_2024.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20241GV.pdf
+CSV saved to: formatted_data\TAMU_AT_GALVESTON_SPRING_2024.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20241MN.pdf
+CSV saved to: formatted_data\MEDICINE-SCHOOL_SPRING_2024.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20241MS.pdf
+CSV saved to: formatted_data\MILITARY_SCIENCE_SPRING_2024.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20241NS.pdf
+CSV saved to: formatted_data\NURSING-SCHOOL_SPRING_2024.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20241PH.pdf
+CSV saved to: formatted_data\PUBLIC_HEALTH_SPRING_2024.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20241PM_PROF.pdf
+Error extracting semester/year from C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20241PM_PROF.pdf: too many values to unpack (expected 2)
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20241QT.pdf
+CSV saved to: formatted_data\QATAR_CAMPUS_SPRING_2024.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20241SL.pdf
+CSV saved to: formatted_data\SCHOOL_OF_LAW_SPRING_2024.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20241SL_PROF.pdf
+CSV saved to: formatted_data\SCHOOL_OF_LAW_SPRING_2024.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20241VF.pdf
+CSV saved to: formatted_data\PERF,_VISUAL_&_FINE_ARTS_SPRING_2024.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20241VT.pdf
+CSV saved to: formatted_data\VETERINARY_MED_&_BIO_SC-SCHOOL_SPRING_2024.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20241VT_PROF.pdf
+Error extracting semester/year from C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20241VT_PROF.pdf: too many values to unpack (expected 2)
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20242AC.pdf
+CSV saved to: formatted_data\ARCHITECTURE-SCHOOL_SUMMER_2024.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20242AE.pdf
+CSV saved to: formatted_data\CENTER_FOR_ACAD_ENHANCEMENT_SUMMER_2024.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20242AG.pdf
+CSV saved to: formatted_data\AGRICULTURE_&_LIFE_SCIENCES_SUMMER_2024.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20242AP.pdf
+CSV saved to: formatted_data\ASSOC_PROVOST_FOR_UG_STUDIES_SUMMER_2024.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20242AT.pdf
+CSV saved to: formatted_data\ARTS_&_SCIENCES_SUMMER_2024.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20242BA.pdf
+CSV saved to: formatted_data\MAYS_BUSINESS_SCHOOL_SUMMER_2024.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20242EH.pdf
+CSV saved to: formatted_data\EDUCATION_&_HUMAN_DEV-SCHOOL_SUMMER_2024.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20242EN.pdf
+CSV saved to: formatted_data\ENGINEERING_SUMMER_2024.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20242GB.pdf
+CSV saved to: formatted_data\BUSH_SCHOOL_OF_GOV_&_PUB_SERV_SUMMER_2024.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20242GV.pdf
+CSV saved to: formatted_data\TAMU_AT_GALVESTON_SUMMER_2024.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20242MS.pdf
+Error extracting semester/year from C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20242MS.pdf: not enough values to unpack (expected 2, got 1)
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20242NS.pdf
+CSV saved to: formatted_data\NURSING-SCHOOL_SUMMER_2024.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20242PM_PROF.pdf
+Error extracting semester/year from C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20242PM_PROF.pdf: not enough values to unpack (expected 2, got 1)
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20242QT.pdf
+CSV saved to: formatted_data\QATAR_CAMPUS_SUMMER_2024.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20242VF.pdf
+CSV saved to: formatted_data\PERF,_VISUAL_&_FINE_ARTS_SUMMER_2024.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20242VT.pdf
+CSV saved to: formatted_data\VETERINARY_MED_&_BIO_SC-SCHOOL_SUMMER_2024.csv
+Processing file: C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20242VT_PROF.pdf
+Error extracting semester/year from C:\Users\narut\OneDrive\Desktop\TAMU_GPA_DIST\data\grd20242VT_PROF.pdf: too many values to unpack (expected 2)
+
+Process finished with exit code 0
