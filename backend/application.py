@@ -21,7 +21,7 @@ app = FastAPI(title="A&M Grade Data Insights")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],  # Adjust if using 127.0.0.1 or in production
+    allow_origins=["*"],  # Adjust if using 127.0.0.1 or in production
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
