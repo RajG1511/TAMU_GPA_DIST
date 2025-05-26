@@ -1,0 +1,75 @@
+# Ignore Python-related files and folders
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+
+# Ignore virtual environments
+venv/
+env/
+*.egg-info/
+
+# Ignore IDE/editor-specific settings
+.idea/
+.vscode/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+*.DS_Store
+
+# Ignore node_modules for frontend
+node_modules/
+
+# Ignore build artifacts
+build/
+dist/
+
+# Ignore environment variables
+backend/.env
+frontend/.env
+
+# Ignore package lock files if you want to manage dependencies explicitly
+package-lock.json
+yarn.lock
+
+# Ignore frontend artifact files
+frontend/.next/
+frontend/out/
+frontend/.parcel-cache/
+frontend/.cache/
+
+# Ignore Docker artifacts (if using Docker)
+docker-compose.override.yml
+.dockerignore
+
+# Ignore database-related sensitive files
+*.db
+*.sqlite
+
+# Ignore AWS-specific files (if applicable)
+*.pem
+*.key
+
+# Ignore coverage reports
+coverage/
+*.lcov
+
+# Ignore temporary and debug files
+debug.log
+error.log
+error_files.txt
+error_files2.txt
+Reports Not Found.txt
+
+# Ignore custom folders
+Queries/
+test_folder/
+testdata/
+
+# ignore any env file variant:
+.env*
+# ignore local deployment archives
+*.zip
