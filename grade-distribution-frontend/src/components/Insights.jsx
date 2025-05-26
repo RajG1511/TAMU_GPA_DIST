@@ -1,7 +1,7 @@
 import React from "react";
 import BarChartAvgGpaCourse from "./BarChartAvgGpaCourse";
 import PieChartDeptProportion from "./PieChartDeptProportion";
-import ScatterGpaClassSize from "./ScatterGpaClassSize";
+import ScatterGpaClassSize from "./ScatterGPAClassSize";
 import BarChartAvgGpaDept from "./BarChartAvgGpaDept";
 
 export default function Insights() {
