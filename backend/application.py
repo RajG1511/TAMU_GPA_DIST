@@ -1,59 +1,91 @@
-# main.py
-
-from fastapi import FastAPI, Depends, HTTPException, Query
+from fastapi import FastAPI, Depends, HTTPException, Query, Body
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy import create_engine, text
 from sqlalchemy.orm import sessionmaker, Session
-import pymysql
-import os
+from typing import List, Dict, Any
+import os, json
 from dotenv import load_dotenv
+from openai import OpenAI
 
 load_dotenv()
 
-DATABASE_URL = os.getenv("DATABASE_URL")
-if not DATABASE_URL:
-    raise Exception("DATABASE_URL is not set. Please set it as an environment variable.")
+# ---------- DB URLs ----------
+RDS_DATABASE_URL = os.getenv("RDS_DATABASE_URL")   # MySQL (RDS)
+VEC_DATABASE_URL = os.getenv("VEC_DATABASE_URL")   # Postgres (Neon)
 
-engine = create_engine(DATABASE_URL, echo=False)
-SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
+if not RDS_DATABASE_URL:
+    raise Exception("RDS_DATABASE_URL is not set.")
+if not VEC_DATABASE_URL:
+    raise Exception("VEC_DATABASE_URL is not set.")
 
-app = FastAPI(title="A&M Grade Data Insights")
+# ---------- OpenAI ----------
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+EMBED_MODEL    = os.getenv("EMBED_MODEL", "text-embedding-3-small")
+CHAT_MODEL     = os.getenv("CHAT_MODEL", "gpt-4o-mini")
+oa_client = OpenAI(api_key=OPENAI_API_KEY) if OPENAI_API_KEY else None
 
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],  # Adjust if using 127.0.0.1 or in production
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+# ---------- Engines & Sessions ----------
+# RDS (MySQL)
+rds_engine = create_engine(RDS_DATABASE_URL, pool_pre_ping=True, echo=False)
+RdsSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=rds_engine)
 
-def get_db_session():
-    db = SessionLocal()
+# Neon (Postgres with pgvector)
+vec_engine = create_engine(VEC_DATABASE_URL, pool_pre_ping=True, echo=False)
+VecSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=vec_engine)
+
+def get_rds_session():
+    db = RdsSessionLocal()
     try:
         yield db
     finally:
         db.close()
 
-
-# --------------------------------------------------------------------------
-# EXISTING ENDPOINTS
-# --------------------------------------------------------------------------
-
-@app.get("/health")
-def health_check(db: Session = Depends(get_db_session)):
+def get_vec_session():
+    db = VecSessionLocal()
     try:
-        db.execute(text("SELECT 1"))
-        return {"status": "OK", "db_connection": "successful"}
+        yield db
+    finally:
+        db.close()
+
+app = FastAPI(title="A&M Grade Data Insights")
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+# ---------- tiny helpers ----------
+def _vec_literal(v: List[float]) -> str:
+    return "[" + ",".join(f"{float(x):.8f}" for x in v) + "]"
+
+def _embed(text: str) -> List[float]:
+    if not oa_client:
+        raise HTTPException(500, "OPENAI_API_KEY not configured")
+    resp = oa_client.embeddings.create(model=EMBED_MODEL, input=text)
+    return resp.data[0].embedding
+
+# ===========================================================================
+# HEALTH
+# ===========================================================================
+@app.get("/health")
+def health():
+    # check both DBs
+    try:
+        with rds_engine.connect() as c:
+            c.execute(text("SELECT 1"))
+        with vec_engine.connect() as c:
+            c.execute(text("SELECT 1"))
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        raise HTTPException(500, f"health check failed: {e}")
+    return {"status": "OK", "rds": "ok", "vec": "ok"}
 
-
+# ===========================================================================
+# EXISTING ENDPOINTS — use RDS (MySQL)
+# ===========================================================================
 @app.get("/grades/trends")
-def get_gpa_trends_for_course(course_name: str, db: Session = Depends(get_db_session)):
-    """
-    Example existing endpoint that returns average GPA by semester+year+instructor
-    for a given course_name. 
-    """
+def get_gpa_trends_for_course(course_name: str, db: Session = Depends(get_rds_session)):
     query = text("""
     SELECT 
       t.semester,
@@ -75,39 +107,26 @@ def get_gpa_trends_for_course(course_name: str, db: Session = Depends(get_db_ses
                ELSE 4
              END;
     """)
-
     rows = db.execute(query, {"course_name": course_name}).fetchall()
-    results = []
-    for r in rows:
-        results.append({
+    return [
+        {
             "semester": r.semester,
             "year": r.year,
             "instructor_name": r.instructor_name,
             "avg_gpa": float(r.avg_gpa) if r.avg_gpa is not None else None
-        })
-    return results
-
+        }
+        for r in rows
+    ]
 
 @app.get("/")
 def read_root():
     return {"message": "Welcome to the Grade Distribution API!"}
 
-
-# --------------------------------------------------------------------------
-# NEW ENDPOINTS FOR INSIGHTS
-# --------------------------------------------------------------------------
-
 @app.get("/insights/avg_gpa_top10_by_dept")
 def avg_gpa_top10_by_department(
-    department: str = Query(..., description="Department code, e.g. 'CSCE'")
-    , db: Session = Depends(get_db_session)
+    department: str = Query(..., description="Department code, e.g. 'CSCE'"),
+    db: Session = Depends(get_rds_session)
 ):
-    """
-    Bar Chart:
-    "avg gpa vs course top 10 by department"
-    Return top 10 courses in a given department by avg_gpa.
-    """
-    # EXAMPLE query: adjust your real columns/tables as needed
     sql = text("""
     SELECT cn.course_name, AVG(g.gpa) as avg_gpa
     FROM grades g
@@ -117,27 +136,11 @@ def avg_gpa_top10_by_department(
     GROUP BY cn.course_name
     ORDER BY AVG(g.gpa) DESC
     """)
-    # E.g. if dept = 'CSCE', we do 'CSCE%' to match 'CSCE-101' etc.
-    param = {"deptPrefix": f"{department}%"}
-
-    rows = db.execute(sql, param).fetchall()
-    results = []
-    for row in rows:
-        results.append({
-            "course_name": row.course_name,
-            "avg_gpa": float(row.avg_gpa) if row.avg_gpa else None
-        })
-    return results
-
+    rows = db.execute(sql, {"deptPrefix": f"{department}%"}).fetchall()
+    return [{"course_name": r.course_name, "avg_gpa": float(r.avg_gpa) if r.avg_gpa else None} for r in rows]
 
 @app.get("/insights/proportion_by_department")
-def proportion_by_department(db: Session = Depends(get_db_session)):
-    """
-    Pie Chart:
-    "proportion of courses offered by each department"
-    Return department -> count_of_courses or something similar
-    for a pie chart.
-    """
+def proportion_by_department(db: Session = Depends(get_rds_session)):
     sql = text("""
     SELECT LEFT(course_name, LOCATE('-', course_name) - 1) as dept_code,
            COUNT(*) as course_count
@@ -147,23 +150,10 @@ def proportion_by_department(db: Session = Depends(get_db_session)):
     ORDER BY course_count DESC
     """)
     rows = db.execute(sql).fetchall()
-    results = []
-    for row in rows:
-        results.append({
-            "department": row.dept_code,
-            "count": int(row.course_count)
-        })
-    return results
-
+    return [{"department": r.dept_code, "count": int(r.course_count)} for r in rows]
 
 @app.get("/insights/scatter_gpa_class_size")
-def scatter_gpa_class_size(db: Session = Depends(get_db_session)):
-    """
-    Scatter Plot:
-    "avg gpa vs class size"
-    Return each course or section, with an X = average class size, Y = average GPA
-    For demonstration, we'll do something simplistic.
-    """
+def scatter_gpa_class_size(db: Session = Depends(get_rds_session)):
     sql = text("""
     SELECT 
       s.section_id,
@@ -176,25 +166,15 @@ def scatter_gpa_class_size(db: Session = Depends(get_db_session)):
     ORDER BY s.section_id
     LIMIT 200
     """)
-
     rows = db.execute(sql).fetchall()
-    results = []
-    for row in rows:
-        results.append({
-            "section_id": row.section_id,
-            "avg_gpa": float(row.avg_gpa) if row.avg_gpa else None,
-            "avg_class_size": float(row.avg_class_size) if row.avg_class_size else None
-        })
-    return results
-
+    return [{
+        "section_id": r.section_id,
+        "avg_gpa": float(r.avg_gpa) if r.avg_gpa else None,
+        "avg_class_size": float(r.avg_class_size) if r.avg_class_size else None
+    } for r in rows]
 
 @app.get("/insights/avg_gpa_by_department")
-def avg_gpa_by_department(db: Session = Depends(get_db_session)):
-    """
-    Bar Chart:
-    "avg gpa vs department"
-    Return dept_code -> avg_gpa
-    """
+def avg_gpa_by_department(db: Session = Depends(get_rds_session)):
     sql = text("""
     SELECT LEFT(cn.course_name, LOCATE('-', cn.course_name) - 1) as dept_code,
            AVG(g.gpa) as avg_gpa
@@ -206,23 +186,14 @@ def avg_gpa_by_department(db: Session = Depends(get_db_session)):
     ORDER BY avg_gpa DESC
     """)
     rows = db.execute(sql).fetchall()
-    results = []
-    for row in rows:
-        results.append({
-            "department": row.dept_code,
-            "avg_gpa": float(row.avg_gpa) if row.avg_gpa else None
-        })
-    return results
+    return [{"department": r.dept_code, "avg_gpa": float(r.avg_gpa) if r.avg_gpa else None} for r in rows]
 
-@app.get("/courses", response_model=list[str])
+@app.get("/courses", response_model=List[str])
 def get_course_suggestions(
     prefix: str = Query("", description="Course name prefix, e.g. 'ENGR'"),
     limit: int = Query(10, ge=1, le=50, description="Max number of suggestions"),
-    db: Session = Depends(get_db_session)
+    db: Session = Depends(get_rds_session)
 ):
-    """
-    Returns up to `limit` course_name strings that start with `prefix`.
-    """
     sql = text("""
         SELECT course_name
         FROM course_names
@@ -232,3 +203,110 @@ def get_course_suggestions(
     """)
     rows = db.execute(sql, {"prefix": f"{prefix}%", "limit": limit}).fetchall()
     return [r.course_name for r in rows]
+
+# ===========================================================================
+# NEW RAG ENDPOINTS — use Neon (Postgres with pgvector)
+# ===========================================================================
+@app.post("/rag/search")
+def rag_search(
+    body: Dict[str, Any] = Body(...),
+    db: Session = Depends(get_vec_session)
+):
+    """
+    Body:
+      q (str, required)
+      top_k (int, default 8)
+      subject (str|None)
+      undergrad_only (bool, default False) -> filters number < 500 if present
+      min_n (int, default 0)
+      recent_re (str|None) regex on term (e.g. '^(2023|2024)')
+    """
+    q = body.get("q", "").strip()
+    if not q:
+        raise HTTPException(400, "q is required")
+
+    top_k     = int(body.get("top_k", 8))
+    subject   = (body.get("subject") or "").strip().upper() or None
+    undergrad = bool(body.get("undergrad_only", False))
+    min_n     = int(body.get("min_n", 0))
+    recent_re = body.get("recent_re")
+
+    q_vec = _embed(q)
+
+    filters = []
+    params = {
+        "embed": _vec_literal(q_vec),
+        "k": top_k,
+    }
+    if subject:
+        filters.append("(metadata->>'subject') = :subject")
+        params["subject"] = subject
+    if undergrad:
+        filters.append("(metadata->>'number') ~ '^[0-9]+$' AND (metadata->>'number')::int < 500")
+    if min_n > 0:
+        filters.append("((metadata->>'n') IS NULL) OR ((metadata->>'n')::int >= :min_n)")
+        params["min_n"] = min_n
+    if recent_re:
+        filters.append("((metadata->>'term') IS NULL) OR ((metadata->>'term') ~ :recent_re)")
+        params["recent_re"] = recent_re
+
+    where_clause = "WHERE " + " AND ".join(filters) if filters else ""
+    sql = text(f"""
+        SELECT
+          doc_id,
+          LEFT(content, 160) AS preview,
+          metadata,
+          embedding <=> :embed::vector AS score
+        FROM rag_docs
+        {where_clause}
+        ORDER BY embedding <=> :embed::vector
+        LIMIT :k
+    """)
+    rows = db.execute(sql, params).mappings().all()
+    return {
+        "count": len(rows),
+        "results": [
+            {
+                "doc_id": r["doc_id"],
+                "preview": r["preview"],
+                "metadata": json.loads(r["metadata"]) if isinstance(r["metadata"], str) else r["metadata"],
+                "score": float(r["score"]),
+            }
+            for r in rows
+        ],
+    }
+
+@app.post("/rag/advise")
+def rag_advise(
+    body: Dict[str, Any] = Body(...),
+    db: Session = Depends(get_vec_session)
+):
+    if not oa_client:
+        raise HTTPException(500, "OPENAI_API_KEY not configured")
+    # reuse retrieval
+    search = rag_search(body, db)
+    hits = search["results"]
+
+    def brief(r):
+        m = r["metadata"] or {}
+        title = m.get("course_id") or f"{m.get('subject','?')} {m.get('number','?')}"
+        xs = []
+        if "mean_gpa" in m: xs.append(f"mean_gpa={m['mean_gpa']:.3f}")
+        if "pct_a"   in m: xs.append(f"pct_a={m['pct_a']:.2f}")
+        if "n"       in m: xs.append(f"n={m['n']}")
+        if "term"    in m: xs.append(f"term={m['term']}")
+        return f"{title} | {'; '.join(xs)} | PREVIEW: {r['preview']}"
+
+    ctx_blob = "\n".join(brief(r) for r in hits)
+    user_q = body.get("q", "")
+
+    messages = [
+        {"role": "system",
+         "content": ("You are an academic advisor for Texas A&M. "
+                     "Use only the provided context. Prefer higher mean_gpa and pct_a "
+                     "with adequate enrollment (n>=25). Include course_id(s) when recommending.")
+        },
+        {"role": "user", "content": f"Question: {user_q}\n\nContext:\n{ctx_blob}"}
+    ]
+    resp = oa_client.chat.completions.create(model=CHAT_MODEL, messages=messages, temperature=0.2)
+    return {"answer": resp.choices[0].message.content, "sources": hits}

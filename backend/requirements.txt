@@ -1,8 +1,19 @@
+# Web framework
 fastapi==0.115.6
-mysql_connector_repackaged==0.3.1
-pdfplumber==0.11.5
-pymysql==1.1.1
-python-dotenv==1.0.1
-selenium==4.28.0
-SQLAlchemy==2.0.37
 uvicorn==0.34.0
+
+# Database (RDS MySQL + Neon Postgres)
+SQLAlchemy==2.0.37
+pymysql==1.1.1
+psycopg2-binary==2.9.9
+
+# Utilities
+python-dotenv==1.0.1
+
+# AI / Embeddings
+openai==1.58.1
+
+# Optional (already present, but keeping)
+mysql_connector_repackaged==0.3.1
+selenium==4.28.0
+pdfplumber==0.11.5
