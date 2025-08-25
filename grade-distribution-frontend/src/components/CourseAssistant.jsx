@@ -16,7 +16,7 @@ export default function CourseAssistant() {
     setIsLoading(true);
 
     try {
-      const response = await fetch("http://localhost:8000/rag/advise", {
+      const response = await fetch(`${import.meta.env.VITE_API_BASE_URL || 'https://tamu-gpa-dist.onrender.com'}/rag/advise`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
