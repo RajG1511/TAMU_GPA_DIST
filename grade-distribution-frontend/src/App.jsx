@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar";
 import GpaTime from "./components/GpaTime";
 import Insights from "./components/Insights";
 import About from "./components/About";
+import CourseAssistant from "./components/CourseAssistant";
 
 export default function App() {
   const [currentTab, setCurrentTab] = useState("Course Search");
@@ -13,6 +14,8 @@ export default function App() {
     content = <Insights />;
   } else if (currentTab === "Course Search") {
     content = <GpaTime />;
+  } else if (currentTab === "Course Assistant") {
+    content = <CourseAssistant />;
   } else if (currentTab === "About") {
     content = <About />;
   }

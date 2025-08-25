@@ -2,7 +2,7 @@
 import React from "react";
 
 export default function NavBar({ currentTab, setCurrentTab }) {
-  const tabs = ["Insights", "Course Search", "About"];
+  const tabs = ["Insights", "Course Search", "Course Assistant", "About"];
 
   return (
     <div style={{
