@@ -50,7 +50,13 @@ def get_vec_session():
 app = FastAPI(title="A&M Grade Data Insights")
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=[
+        "http://localhost:5173",
+        "http://localhost:3000", 
+        "https://tamu-gpa-dist-e87h-git-rag-integration-rajg1511s-projects.vercel.app",
+        "https://tamu-gpa-dist.vercel.app",
+        "https://*.vercel.app"
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
