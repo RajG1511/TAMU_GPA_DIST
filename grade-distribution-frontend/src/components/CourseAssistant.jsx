@@ -22,7 +22,7 @@ export default function CourseAssistant() {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          query: input,
+          q: input,
         }),
       });
 
@@ -33,7 +33,7 @@ export default function CourseAssistant() {
       const data = await response.json();
       const assistantMessage = {
         role: "assistant",
-        content: data.advice,
+        content: data.answer,
         sources: data.sources,
       };
 
