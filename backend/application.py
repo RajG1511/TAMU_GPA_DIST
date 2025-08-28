@@ -81,6 +81,16 @@ def health():
         raise HTTPException(500, f"health check failed: {e}")
     return {"status": "OK", "rds": "ok", "vec": "ok"}
 
+@app.get("/debug")
+def debug():
+    return {
+        "openai_configured": OPENAI_API_KEY is not None,
+        "openai_key_length": len(OPENAI_API_KEY) if OPENAI_API_KEY else 0,
+        "embed_model": EMBED_MODEL,
+        "chat_model": CHAT_MODEL,
+        "oa_client_exists": oa_client is not None
+    }
+
 # ===========================================================================
 # EXISTING ENDPOINTS — use RDS (MySQL)
 # ===========================================================================
