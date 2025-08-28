@@ -261,18 +261,21 @@ def rag_search(
         params["recent_re"] = recent_re
 
     where_clause = "WHERE " + " AND ".join(filters) if filters else ""
+    embed_literal = _vec_literal(q_vec)
     sql = text(f"""
         SELECT
           doc_id,
           LEFT(content, 160) AS preview,
           metadata,
-          embedding <=> :embed::vector AS score
+          embedding <=> '{embed_literal}'::vector AS score
         FROM rag_docs
         {where_clause}
-        ORDER BY embedding <=> :embed::vector
+        ORDER BY embedding <=> '{embed_literal}'::vector
         LIMIT :k
     """)
-    rows = db.execute(sql, params).mappings().all()
+    # Remove embed from params since we're using direct interpolation
+    params_without_embed = {k: v for k, v in params.items() if k != "embed"}
+    rows = db.execute(sql, params_without_embed).mappings().all()
     return {
         "count": len(rows),
         "results": [
